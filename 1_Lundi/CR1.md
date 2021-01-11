@@ -3,7 +3,7 @@
 ## Flow des notions
 
 * Type de Hackers
-![hackers!](/1_Lundi/pic/Hackers.png)
+![hackers!](/1_Lundi/pic/hackers.png)
 
 * Evolution des outils de securite et d'attaque
 
@@ -131,13 +131,13 @@ EXAMPLES:
 1. FTP
 2. SSH
  	1. l'installation du systeme vunerable
- 	![pic](/1_Lundi/pic/Capture_VM_exploit.png)
+ 	![pic](/1_Lundi/pic/Capture_VM_exploit.PNG)
  	2. ajouter mots de passe dans la dic
  	![pic](/1_Lundi/pic/ajoute_un_compte.png)
  	3. recuperer le compte
  	![pic](/1_Lundi/pic/SSH_reussi.png)
  	4. login Rlogin
- 	![pic](/1_Lundi/pic/rlogin_exploit.png)
+ 	![pic](/1_Lundi/pic/rlogin_exploit.PNG)
 
 
 3. SMB
