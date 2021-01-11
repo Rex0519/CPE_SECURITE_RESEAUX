@@ -13,9 +13,11 @@
 
 * TYPES D’ATTAQUES RÉSEAU
 
-• Attaques de reconnaissance
-• Attaques d'accès
-• Attaques DoS
+	• Attaques de reconnaissance
+
+	• Attaques d'accès
+
+	• Attaques DoS
 
 * LA CHAÎNE DE FRAPPE DANS LA CYBERDÉFENSE
 
@@ -141,3 +143,22 @@ EXAMPLES:
 
 
 3. SMB
+
+
+## secu de routeur
+
+### crack mot de passe de routeur (kali)
+
+'enable password cisco'
+
+'service password-encryption'
+
+'git clone https://github.com/theevilbit/ciscot7.git'
+
+'python ciscot7.py -d -p lechainchiffre'
+
+### AUGMENTER LA SÉCURITÉ D'ACCÈS
+
+'line console 0'
+
+
