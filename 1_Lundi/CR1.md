@@ -3,13 +3,13 @@
 ## Flow des notions
 
 * Type de Hackers
-[hackers!](/1_Lundi/pic/Hackers.png)
+![hackers!](/1_Lundi/pic/Hackers.png)
 
 * Evolution des outils de securite et d'attaque
 
-[outilsecu](/1_Lundi/pic/outil_secu.png)
+![outilsecu](/1_Lundi/pic/outil_secu.png)
 
-[outilatta](/1_Lundi/pic/outil_atta.png)
+![outilatta](/1_Lundi/pic/outil_atta.png)
 
 * TYPES D’ATTAQUES RÉSEAU
 
@@ -19,7 +19,7 @@
 
 * LA CHAÎNE DE FRAPPE DANS LA CYBERDÉFENSE
 
-[chaine](/1_Lundi/pic/chain_frappe.png)
+![chaine](/1_Lundi/pic/chain_frappe.png)
 
 ## Plateforme KALI
 
@@ -131,13 +131,13 @@ EXAMPLES:
 1. FTP
 2. SSH
  	1. l'installation du systeme vunerable
- 	[pic](/1_Lundi/pic/Capture_VM_exploit.png)
+ 	![pic](/1_Lundi/pic/Capture_VM_exploit.png)
  	2. ajouter mots de passe dans la dic
- 	[pic](/1_Lundi/pic/ajoute_un_compte.png)
+ 	![pic](/1_Lundi/pic/ajoute_un_compte.png)
  	3. recuperer le compte
- 	[pic](/1_Lundi/pic/SSH_reussi.png)
+ 	![pic](/1_Lundi/pic/SSH_reussi.png)
  	4. login Rlogin
- 	[pic](/1_Lundi/pic/rlogin_exploit.png)
+ 	![pic](/1_Lundi/pic/rlogin_exploit.png)
 
 
 3. SMB
