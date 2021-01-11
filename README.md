@@ -1,6 +1,6 @@
 # CPE_SECURITE_RESEAUX
 
-***Enseignant Kamal BENZEKKI***
+*Enseignant Kamal BENZEKKI*
 
 La sécurité du réseau comprend les politiques et les pratiques adoptées pour empêcher et surveiller l'accès non autorisé, l'utilisation abusive, la modification ou le refus d'un réseau informatique et des ressources accessibles sur le réseau
 
