@@ -4,7 +4,7 @@
 
 #### sécurité de config par défaute
 
- ![config_default](/2_Mardi/pic/shusers_shline.png)
+ ![config_default](/2_Mardi/pic/chemin_configdefault.PNG)
 'no privilage level 15'
 On ajoute 'no' avant privilage level 15 pour annuler le privilage trop haute pour le vty et aux.
 
@@ -31,7 +31,7 @@ Si nous voulons un username et MDP pour agumenter la sécurité, on bascule à l
 '#username Fabiola algorithm-type scrypt secret fabiola123'
  mais on arrive pas en mode login avec username, il faut l'activer dans 'line console 0', saisie la commande 'login local'
 
- ![show users and show line](/2_Mardi/pic/shusers_shline.png)
+ ![show users and show line](/2_Mardi/pic/shusers_shline.PNG)
 
  'show users' 'show line' montre des infos des sessions on a créé.
 
@@ -79,10 +79,10 @@ syntax 'ip access-list standard *nom de ACL*', 'permit *adress-IP*'.
 
 le packet telnet est envoyé en clear-text. Et c'est tres facile de capter par analyseur packet
 
-![wireshark](/2_Mardi/pic/aireshark.PNG).
+![wireshark](/2_Mardi/pic/wireshark.PNG).
 
 On utilise ainsi SSH(secu SH).
-
+'''
 R1(config)#ip domain-name crackcpe.com
 
 R1(config)#crypto key generate rsa general-keys modulus 2048
@@ -98,3 +98,6 @@ R1(config-line)#login local
 R1(config-line)#transport input ssh
 
 R1(config-line)#exit
+
+'''
+![wireshark](/2_Mardi/pic/wiressh.PNG).
