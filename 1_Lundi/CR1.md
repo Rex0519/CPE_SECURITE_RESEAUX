@@ -152,13 +152,15 @@ EXAMPLES:
 'enable password cisco'
 
 'service password-encryption'
+This command obscures all clear-text passwords in the configuration using a Vigenere cipher.
 
 'git clone https://github.com/theevilbit/ciscot7.git'
-
+c'est pour un logiciel linux de craquer le mdp de routeur cisco 7.
+Excuter la commande suivant dans le terminal.
 'python ciscot7.py -d -p lechainchiffre'
 
 ### AUGMENTER LA SÉCURITÉ D'ACCÈS
 
-'line console 0'
+'line console 0' pour configurer le mode de console qui est connecté directement sur le routeur
 
-
+vty aka virtual teletype cest pour la tele-connexion telnet ou SSH.
