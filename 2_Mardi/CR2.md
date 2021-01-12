@@ -98,6 +98,5 @@ R1(config-line)#login local
 R1(config-line)#transport input ssh
 
 R1(config-line)#exit
-
 '''
 ![wireshark](/2_Mardi/pic/wiressh.PNG).
