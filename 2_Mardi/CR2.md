@@ -82,14 +82,16 @@ le packet telnet est envoyé en clear-text. Et c'est tres facile de capter par a
 ![wireshark](/2_Mardi/pic/wireshark.PNG).
 
 On utilise ainsi SSH(secu SH).
-'''
-R1(config)#ip domain-name crackcpe.com
 
-R1(config)#crypto key generate rsa general-keys modulus 2048
+'ip domain-name crackcpe.com'
 
-R1(config)#ip ssh version 2
+'crypto key generate rsa general-keys modulus 2048'
 
-R1(config)#username chiant algorithm-type scrypt secret chiant12345
+c'est pour créer des clés public et privé qui laissent SSH chiffrement et décrypter des packets.
+
+'ip ssh version 2'
+
+'username chiant algorithm-type scrypt secret chiant12345'
 
 R1(config)#line vty 0 4
 
