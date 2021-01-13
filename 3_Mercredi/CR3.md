@@ -65,7 +65,7 @@ apres la configuration, on peut voir le resultat par 'show ntp status'
 
 installation des machines TACACS, WEBTERM, deux ROUTEUR(user et ROUTER).
 
-![topologie_serveur_tacacs](/2_Mercredi/pic/topologietacacs.PNG)
+![topologie_serveur_tacacs](/3_Mercredi/pic/topologietacacs.PNG)
 
 #### Configurations:
 
@@ -120,5 +120,5 @@ aller sur ROUTER puis d'analyser les logs
 
 #### blocage de la connection serveur tacacs
 
-si l'on desconnecte le serveur tacacs, USER peut encore acceder au serveur par vty.
-c'est a dire que l'authetication ne marche que le premiere fois.
+si l'on déconnecte le serveur tacacs, USER peut encore acceder au serveur par vty.
+c'est a dire que l'authetication ne marche que le première fois. Et il n'est nécessaire ensuite.
