@@ -42,7 +42,6 @@ Si nous voulons un username et MDP pour agumenter la sécurité, on bascule à l
 
 dans le mode config, on saisie banner motd avec un '#' et ensuite le message qui est terminé par un autre '#'.
 
- ![banner_ggez](/2_Mardi/pic/ggez.PNG)
 
  <details>
  <summary>plus d'infos en anglais</summary>
