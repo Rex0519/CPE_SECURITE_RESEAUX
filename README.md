@@ -11,7 +11,7 @@ La sécurité du réseau comprend les politiques et les pratiques adoptées 
 3. disponibilité
 
 
-## Compte rendu journalier
+## Compte rendu journalier(PDF OFFRE)
 
 **Lundi 11/01/2021** : [clique ICI](/1_Lundi/CR1.md)
 
