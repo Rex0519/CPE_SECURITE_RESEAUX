@@ -29,13 +29,13 @@
 
 'service postgresql start'
 
-'msfconsole'
+'msfconsole' outil pour exploiter kali
 
 'help' -- manual.
 
 'use exploit/chemin/something'
 
-'show options'
+'show options' montrer tous les prarametres de la methode
 
 'show info'
 
