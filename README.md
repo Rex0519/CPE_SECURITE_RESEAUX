@@ -26,3 +26,7 @@ La sécurité du réseau comprend les politiques et les pratiques adoptées 
 
 
 **Vendredi 15/01/2021** : [clique ICI](/5_Vendredi/CR5.md)
+
+##### petit trick 
+
+* VPC peut être sauvegardé par la commande 'save'
