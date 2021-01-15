@@ -12,3 +12,6 @@ simuler un
 no ip route
 
 ip default-gateway a.b.c.d
+
+
+rewrewr 
