@@ -87,6 +87,24 @@ ou bien
 
 #### contourler ACL
 
-'nmap -e eth0 -S IP(clinquant) IP(BUT)''
+C'est outil est pour pentest un reseau protégé par des ACLs.
 
-nmap.org
+Le mécanisme de ces ACLs est comparer les sources d'adresses IPs(hosts) et les filter.
+
+L'astuce est générer des paquets IP avec des adresses IP qui ne sont pas interdits par l'ACL. 
+
+'nmap -e eth0 -S IP(clinquant) IP(BUT)'
+
+-e <interface> 
+
+Avise Nmap sur quelle interface envoyer et recevoir les paquets. Nmap devrait pouvoir la détecter automatiquement mais il vous le dira si ce n'est pas le cas.
+
+-S <IP_Address> 
+
+Dans certaines circonstances, Nmap n'est pas capable de déterminer votre adresse source ( Nmap vous avisera le cas échéant). Dans cette situation, utilisez -S avec l'adresse IP de l'interface avec laquelle vous souhaitez envoyer les paquets.
+
+Un autre usage possible de ce drapeau est d'usurper (spoofer) le scan afin de faire croire à la cible que quelqu'un d'autre est en train de les scanner. Imaginez une compagnie constamment scannée pas un concurrent ! L'option -e est généralement requise pour ce genre d'usage et -P0 est à conseiller quoi qu'il en soit.
+
+https://nmap.org/man/fr/man-bypass-firewalls-ids.html
+
+
