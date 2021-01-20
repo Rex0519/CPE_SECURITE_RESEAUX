@@ -102,7 +102,7 @@ a la futur
 
  pfSense convient pour la securisation d'un reseau domestique ou d'entreprise.
 
-##### installation 
+##### L'installation 
 
 0. LAN segment dans conf de VMWARE Workstation
 
@@ -112,7 +112,7 @@ a la futur
 
 ' pfSsh. php playback enableallowallwan'
 
-##### configuration de chaque service
+##### La configuration de chaque service
 
 1. SSH
 2. NAT
@@ -120,7 +120,7 @@ a la futur
 4. VIRTUAL IPs
 5. TRAFFIC SHAPER(limite débit)
 
-##### outil (PLUGIN EXTRA)
+##### Les outils (PLUGIN EXTRA)
 
 * NTOPNG (outil d'analyse)
 
@@ -144,7 +144,7 @@ a la futur
 
 A VENIR
 
-### some tricks
+### Some tricks
 
 simulation un VPC par un routeur:
 
