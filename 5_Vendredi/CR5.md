@@ -83,11 +83,71 @@ Sinon, comment vendre le pare-feu?
 
 ![newparfeu](/5_Vendredi/pic/newparfeu.png)
 
+#### ZPF 
 
-'access-list 101 permit tcp any host 2090.0.2.1 eq telnet'
-'access-list 101 dynamic testlist timeout 15 permit ip 
+a la futur
 
-simuler un
+
+#### PFSENSE
+
+ LE FIREWALL PFSENSE
+
+ Le projet pfSense, est base sur un fork de mOnOwall realise en 2004 par Chris Buechler et Scott Ullrich11.
+
+ pfSense est un routeur/ pare-feu open source base sur le systeme d'exploitation FreeBSD.
+
+ A I'origine un fork de mOnOwall, il utilise le pare-feu etats Packet Filter,des fonctions de routage et de NAT lui permettant de connecter plusieurs reseaux informatiques.
+
+ Il comporte l'equivalent libre des outils et services utilises habituellement sur des routeurs professionnels proprietaires.
+
+ pfSense convient pour la securisation d'un reseau domestique ou d'entreprise.
+
+##### installation 
+
+0. LAN segment dans conf de VMWARE Workstation
+
+1. configuration des address IP pour WAN et LAN sur 1 et 2
+
+2. configuration l'accès WAN
+
+' pfSsh. php playback enableallowallwan'
+
+##### configuration de chaque service
+
+1. SSH
+2. NAT
+3. ALLIASES
+4. VIRTUAL IPs
+5. TRAFFIC SHAPER(limite débit)
+
+##### outil (PLUGIN EXTRA)
+
+* NTOPNG (outil d'analyse)
+
+* PFBLOCKERNG  protection de la vie privee et de tracage avec filtrage Web permettant d'ameliorer la confidentialite, de controler les acces, de supprimer les publicites et de bloquer l'acces aux sites publicitaires.
+
+##### MULTI-WAN pour plusieur LSPs ou MSOs
+
+1. la balance de la charge
+
+2. l'Agrégation de liens
+
+##### Redondance
+
+ * High Availabillty Sync
+ 	PFSYNC
+
+ * Common Address Redundancy Protocol (CARP)
+ open redundancy solution for sharing IP addresses among a group of network devices. Similar solutions already existed, primarily the IETF standard for Virtual Router Redundancy Protocol (VRRP). However Cisco claims VRRP is covered by its patent on their Hot Standby Router Protocol (HSRP), and told the OpenBSD developers that it would enforce its patent. 
+
+###	IDS ET IPS
+
+A VENIR
+
+### some tricks
+
+simulation un VPC par un routeur:
+
 no ip route
 
 ip default-gateway a.b.c.d
